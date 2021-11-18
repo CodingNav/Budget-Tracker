@@ -1,6 +1,6 @@
 <img align="right" src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
 
-# Budget-Tracker
+# PWA Budget-Tracker
 
 ## Table of Contents
 * <a href="#about">Link</a>
@@ -14,7 +14,7 @@
 <b>Link to site:</b> 
 
 ## About 
-<i><b>Budget Tracker</b></i> is a website that allows the user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to the applications success.
+<i><b>Budget Tracker</b></i> is a Progressive Web Application that allows the user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to the applications success.
 
 
 ## Preview
