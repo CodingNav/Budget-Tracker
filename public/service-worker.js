@@ -1,12 +1,13 @@
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
-    "/assets/css/style.css",
+    "/assets/css/styles.css",
     "/assets/js/index.js",
-    "/assets/images/icon-192x192.png",
-    "/assets/images/icon-512x512.png",
+    "/assets/js/db.js",
+    "/assets/images/icons/icon-192x192.png",
+    "/assets/images/icons/icon-512x512.png",
     "/manifest.webmanifest",
-    "https://cdn.jsdelivr.net/npm/chart.js@2.8.0"
+    "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
 ];
 
 const CACHE_NAME = "static-cache-v2";
