@@ -27,6 +27,7 @@ self.addEventListener("install", (e) => {
 
 // activate
 self.addEventListener("activate", (e) => {
+    // takes control of client and removes old cache
     e.waitUntil(
       caches.keys().then(keyList => {
         return Promise.all(
@@ -44,3 +45,36 @@ self.addEventListener("activate", (e) => {
   });
 
 // fetch
+self.addEventListener("fetch", (e) => {
+    // cache successful request to the API
+    if (e.request.url.includes("/api/")) {
+      e.respondWith(
+        caches.open(DATA_CACHE_NAME).then(cache => {
+          return fetch(e.request)
+            .then(response => {
+              // If the response was good, clone it and store it in the cache.
+              if (response.status === 200) {
+                cache.put(e.request.url, response.clone());
+              }
+  
+              return response;
+            })
+            .catch(err => {
+              // Network request failed, try to get it from the cache.
+              return cache.match(e.request);
+            });
+        }).catch(err => console.log(err))
+      );
+  
+      return;
+    }
+  
+    e.respondWith(
+      caches.open(CACHE_NAME).then(cache => {
+        return cache.match(e.request).then(response => {
+          return response || fetch(e.request);
+        });
+      })
+    );
+  });
+  
