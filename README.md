@@ -11,7 +11,7 @@
 * <a href="#technologies">Technologies</a>
 
 ## Link
-<b>Link to site:</b> 
+<b>Link to site:</b> https://codingnav-budget-tracker.herokuapp.com/
 
 ## About 
 <i><b>Budget Tracker</b></i> is a Progressive Web Application that allows the user to be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online. Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to the applications success.
@@ -37,14 +37,9 @@ THEN that will be shown on the page, and added to their transaction history when
 
 
 ## Technologies
-<!-- ### Front End
 <img align="middle" src="./public/assets/images/html_css.png" alt="HTML5 and CSS" width="25%"/>&nbsp; &nbsp;
-<img align="middle" src="./public/assets/images/bulma.png" alt="Bulma" width="20%"/>&nbsp; &nbsp; &nbsp; 
-<img align="middle" src="./public/assets/images/handlebars.png" alt="Handlebars" width="15%"/>&nbsp; &nbsp; &nbsp; 
-<img align="middle" src="./public/assets/images/js.jpg" alt="Javascript" width="10%"/>
-
-### Back End
+<img align="middle" src="./public/assets/images/js.jpg" alt="Javascript" width="10%"/>&nbsp; &nbsp; &nbsp; 
+<img align="middle" src="./public/assets/images/chartjs.png" alt="Chartjs" width="15%"/>&nbsp; &nbsp; &nbsp; 
 <img align="middle" src="./public/assets/images/nodejs.png" alt="Nodejs" width="20%"/>&nbsp; &nbsp; &nbsp; 
-<img align="middle" src="./public/assets/images/expressjs.png" alt="Express" width="20%"/>&nbsp; &nbsp; &nbsp; 
-<img align="middle" src="./public/assets/images/mysql.png" alt="MySQL" width="20%"/>&nbsp; &nbsp; &nbsp; 
-<img align="middle" src="./public/assets/images/sequelize.png" alt="Sequelize" width="20%"/> -->
+<img align="middle" src="./public/assets/images/expressjs.png" alt="Express" width="20%"/>&nbsp; &nbsp; &nbsp;
+<img align="middle" src="./public/assets/images/mongo.png" alt="Mongodb" width="25%"/>
